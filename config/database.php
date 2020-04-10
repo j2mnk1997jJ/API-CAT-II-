@@ -1,10 +1,10 @@
 <?php
 
 $url = parse_url(getenv("DATABASE_URL"));
-$host = $url["host"];
-$username = $url["user"];
-$passworl = $url["pass"];
-$database = substr($url["path"], 1);
+$host = $url["host"]?? null;
+$username = $url["user"]?? null;
+$passworl = $url["pass"]?? null;
+$database = substr($url["path"], 1)?? null;
 
 use Illuminate\Support\Str;
 
