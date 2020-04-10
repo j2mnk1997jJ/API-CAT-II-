@@ -6,7 +6,7 @@
         <div class="col-md-8 col-12">
             <div class="card">
                 <div class="card-header">
-                    <h3 class="text-center">Add a new Student</h3>
+                    <h3 class="text-center">Fees Payment</h3>
                 </div>
                 <div class="card-body m-auto">
                     <div class="row justify-content-center">
